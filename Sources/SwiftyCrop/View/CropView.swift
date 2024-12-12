@@ -143,6 +143,7 @@ struct CropView: View {
             }
             .frame(maxWidth: .infinity, alignment: .bottom)
             .padding()
+            .zIndex(1)
         }
         .background(configuration.colors.background)
     }
