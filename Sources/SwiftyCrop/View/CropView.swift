@@ -138,6 +138,8 @@ struct CropView: View {
                         NSLocalizedString("save_button", tableName: localizableTableName, bundle: .module, comment: "")
                     )
                     .font(configuration.fonts.saveButton)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
                 }
                 .foregroundColor(configuration.colors.saveButton)
             }
